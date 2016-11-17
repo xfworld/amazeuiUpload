@@ -54,7 +54,7 @@ Amaze UI Upload 插件。
     ```
 
 
-2. 调用说明： 
+2. 调用说明：
     ```js
      	var upload=$('#event').AmazeuiUpload({
      	                url : 'http://localhost/demo.json',
