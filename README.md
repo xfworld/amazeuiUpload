@@ -46,12 +46,15 @@ Amaze UI Upload 插件。
 
 **更新说明：**
 
+1. 主要更新：
     ```html
     1.1版本主要进行了重构，实现对象化，另外提供了插件初始化方法，销毁方法，置入上传对象等等；
     主要实现了插件的生命周期可控，可以上传，可以下载，主要实现请参考demo
     目前版本中存在messageBox的依赖，后期根据需求会重构该对象；
     ```
 
+
+2. 调用说明： 
     ```js
      	var upload=$('#event').AmazeuiUpload({
      	                url : 'http://localhost/demo.json',
