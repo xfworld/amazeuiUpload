@@ -24,6 +24,8 @@ Amaze UI Upload 插件。
   <script src="../dist/jquery.min.js"></script>
   <script src="../dist/amazeui.min.js"></script>
   <script src="../dist/amazeui.upload.js"></script>
+  <script src="../dist/amazeui.upload.template.js"></script>
+  <script src="../dist/amazeui.upload.event.js"></script>
   ```
 
 4. Html 定义:
@@ -36,9 +38,34 @@ Amaze UI Upload 插件。
 
   ```js
   $(function(){
- 	  $('#event').Upload({url : 'http://localhost/demo.json'});
+ 	  $('#event').AmazeuiUpload({url : 'http://localhost/demo.json'});
   });
   ```
+**更新说明：**
+    ```html
+    1.1版本主要进行了重构，实现对象化，另外提供了插件初始化方法，销毁方法，置入上传对象等等；
+    主要实现了插件的生命周期可控，可以上传，可以下载，主要实现请参考demo
+    目前版本中存在messageBox的依赖，后期根据需求会重构该对象；
+    ```
+    ```js
+
+     	var upload=$('#event').AmazeuiUpload({
+     	                url : 'http://localhost/demo.json',
+     	                downloadUrl :'',
+     	                maxFiles: 50, // 单次上传的数量
+                        maxFileSize: 10, // 单个文件允许的大小 (M)
+                        multiThreading: false, // true为同时上传false为队列上传
+                        useDefTemplate: true, //是否使用表格模式
+                        dropType: false, //是否允许拖拽
+                        pasteType: false //是否允许粘贴
+     	           });
+
+        upload.init(); //对象初始化
+        upload.destory(); //对象销毁
+        upload.setResult(); //置入已上传的对象
+        upload.selectResult(); //获取当前已经完成上传的对象
+      ```
+
 
 **插件说明：**
   ```html

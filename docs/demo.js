@@ -3,10 +3,11 @@ $(function(){
 
 	 $('#event').Upload({
        url : 'http://localhost/demo.json',
+       downloadUrl :'',
        maxfiles: 10 , // 单次上传的数量
        maxfilesize : 20,  // 单个文件允许的大小 (M)
-       multithreading : true, // true为同时上传false为队列上传
-       useDefTemplate :false // 开启默认模版
+       multithreading : false, // true为同时上传false为队列上传
+       useDefTemplate :true // 开启默认模版
     });
 
 
