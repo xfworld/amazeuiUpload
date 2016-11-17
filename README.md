@@ -41,6 +41,9 @@ Amaze UI Upload 插件。
  	  $('#event').AmazeuiUpload({url : 'http://localhost/demo.json'});
   });
   ```
+
+
+
 **更新说明：**
     ```html
     1.1版本主要进行了重构，实现对象化，另外提供了插件初始化方法，销毁方法，置入上传对象等等；
