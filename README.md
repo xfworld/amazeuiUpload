@@ -73,6 +73,15 @@ Amaze UI Upload 插件。
         upload.selectResult(); //获取当前已经完成上传的对象
       ```
 
+**图例：**
+
+1. 上传图例：
+![](http://p1.bpimg.com/567571/b31bf7fd67de365b.png)
+
+2. 加载图例：
+![](http://p1.bpimg.com/567571/2b6ac22c19263846.png)
+
+
 
 **插件说明：**
   ```html
