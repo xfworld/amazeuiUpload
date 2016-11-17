@@ -7,7 +7,7 @@ Amaze UI Upload 插件。
 
 1. 获取 Amaze UI Upload
 
-  - [直接下载](https://github.com/xfworld/amazeuiUpload)
+  - [直接下载](https://github.com/xfworld/amazeuiUpload/archive/V1.1.zip)
 
 2. 在 Amaze UI 样式之后引入 Upload 样式（`dist` 目录下的 CSS）：
 
