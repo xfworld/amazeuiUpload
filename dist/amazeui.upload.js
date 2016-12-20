@@ -187,9 +187,9 @@
     result.thisDom.find('.speed text').text(result.speed + " K\/S");
     result.thisDom.find('.loaded text').text(result.loaded + ' / ' + result.total);
   }
-
-  AmazeuiUpload.prototype._error = function(error, file, i) {
-    console.log(eror, file, i);
+  //错误展示项
+  AmazeuiUpload.prototype._error = function(error, file) {
+    console.log(error, file);
   }
   AmazeuiUpload.prototype._dragenter = function(e) {
     e.dataTransfer.dropEffect = "copy";

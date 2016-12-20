@@ -7,7 +7,7 @@ Amaze UI Upload 插件。
 
 1. 获取 Amaze UI Upload
 
-  - [直接下载](https://github.com/xfworld/amazeuiUpload)
+  - [直接下载](https://github.com/xfworld/amazeuiUpload/archive/V1.1.zip)
 
 2. 在 Amaze UI 样式之后引入 Upload 样式（`dist` 目录下的 CSS）：
 
@@ -72,6 +72,15 @@ Amaze UI Upload 插件。
         upload.setResult(); //置入已上传的对象
         upload.selectResult(); //获取当前已经完成上传的对象
       ```
+
+**图例：**
+
+1. 上传图例：
+![](http://p1.bpimg.com/567571/b31bf7fd67de365b.png)
+
+2. 加载图例：
+![](http://p1.bpimg.com/567571/2b6ac22c19263846.png)
+
 
 
 **插件说明：**
